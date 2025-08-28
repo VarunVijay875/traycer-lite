@@ -1,23 +1,23 @@
 # Traycer-Lite
 
 A lightweight CLI tool that generates **planning steps** and **final TypeScript code** from natural language prompts.  
-It can run fully **offline** with built-in templates, or optionally use the **Hugging Face Inference API** for AI-powered code generation.
+It works fully **offline** with built-in templates, and can optionally use the **Hugging Face Inference API** for AI-powered code generation.
 
 ---
 
 ## Features
 
-- ✨ Generates **step-by-step planning layers** before writing code  
-- 🛠️ Produces clean **TypeScript functions, components, APIs, or scripts**  
-- 📦 Works offline with built-in templates (no API key required)  
-- 🤖 Optional Hugging Face integration for AI-powered completions  
-- 💾 Save generated code directly to a file  
+- Generates a **step-by-step planning layer** before writing code  
+- Produces clean **TypeScript functions, components, APIs, or scripts**  
+- Works offline with built-in templates (no API key required)  
+- Optional Hugging Face integration for AI-powered completions  
+- Save generated code directly to a file  
 
 ---
 
 ## Installation
 
-Clone and install dependencies:
+Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/your-username/traycer-lite.git
@@ -97,9 +97,13 @@ npx ts-node src/index.ts --out myFunc.ts "reverse a string"
 
 ## Example Output
 
+Command:
+
 ```bash
 npm run start -- "write a function to check prime numbers"
 ```
+
+Output:
 
 **Planning Layer**
 ```
